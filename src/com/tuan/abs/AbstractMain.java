@@ -1,4 +1,4 @@
-package com.tuan.main;
+package com.tuan.abs;
 
 import java.util.Scanner;
 

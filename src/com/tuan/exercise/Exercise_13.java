@@ -2,12 +2,14 @@ package com.tuan.exercise;
 
 import java.util.Scanner;
 
+import com.tuan.abs.AbstractExercise;
+
 public class Exercise_13 extends AbstractExercise{
 	
 	public void checkNumberExtend(Scanner sc) {
 		int n = 0;
 		System.out.print("Nhap vao so nguyen n = ");
-		n = sc.nextInt();
+		n = getInputInteger(sc);
 		
 		if(isEvenNumber(n) && n != 0) {
 			System.out.println("==>" + n + " la so chan");
