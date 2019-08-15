@@ -7,10 +7,16 @@ import com.tuan.abs.AbstractExercise;
 public class Exercise_07 extends AbstractExercise {
 
 	public void printOddNumber() {
-		System.out.print("==> So le tu 1 -> 99: ");
+		int k = 0;
+		System.out.println("<========== BAI 7 =============>");
+		System.out.println("==> So le tu 1 -> 99: ");
 		for(int i = 1; i < 100; i++) {
 			if(isOddNumber(i)) {
 				System.out.print(i + " ");
+				k++;
+				if (k % 10 == 0) {
+					System.out.println("");
+				}
 			}
 		}
 		System.out.println("");

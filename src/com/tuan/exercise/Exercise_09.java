@@ -9,6 +9,7 @@ public class Exercise_09 extends AbstractExercise {
 	public void sumNumberToN(Scanner sc) {
 		int sum = 0;
 		int n = 0;
+		System.out.println("<========== BAI 9 =============>");
 		System.out.print("HAY NHAP n DE THUC HIEN TINH TONG 1 + 2 + 3 +...+ n: n = ");
 		n = getInputInteger(sc);
 		for(int i = 1; i <= n; i++) {

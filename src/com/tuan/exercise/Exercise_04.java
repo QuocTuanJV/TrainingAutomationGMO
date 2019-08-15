@@ -8,6 +8,7 @@ public class Exercise_04 extends AbstractExercise {
 
 	public void checkNumberAndPrint(Scanner sc) {
 		int n = 0;
+		System.out.println("<========== BAI 4 =============>");
 		System.out.print("Nhap vao so nguyen n = ");
 		n = getInputInteger(sc);
 		if (isEvenNumber(n)) {

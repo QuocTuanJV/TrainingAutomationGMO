@@ -8,9 +8,12 @@ public class Demo extends AbstractExercise {
 
 	public static void main(String[] args) {
 		Demo dm = new Demo();
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
 		
 		
-		System.out.println(dm.sumEvenNumberFromZero(3, 0));
+		
 	}
 	
 	

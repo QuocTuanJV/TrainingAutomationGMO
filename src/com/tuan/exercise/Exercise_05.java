@@ -8,6 +8,7 @@ public class Exercise_05 extends AbstractExercise {
 
 	public void checkNumberAndValue(Scanner sc) {
 		int n = 0;
+		System.out.println("<========== BAI 5 =============>");
 		System.out.print("Nhap vao so nguyen n = ");
 		n = getInputInteger(sc);
 		if (n > 5) {

@@ -9,6 +9,7 @@ public class Exercise_08 extends AbstractExercise {
 	public void printSumNumberOfMultiplesN(Scanner sc) {
 		int sum = 0;
 		int n = 0;
+		System.out.println("<========== BAI 8 =============>");
 		System.out.print("HAY NHAP BOI SO MA BAN MUON TINH TONG: n = ");
 		n = getInputInteger(sc);
 		for(int i = 1; i < 100; i++) {

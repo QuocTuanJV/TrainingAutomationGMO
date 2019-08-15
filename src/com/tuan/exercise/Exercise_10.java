@@ -9,6 +9,7 @@ public class Exercise_10 extends AbstractExercise {
 	public void sumEvenNumberOrOddNumber(Scanner sc) {
 		int sum = 0;
 		int n = 0;
+		System.out.println("<========== BAI 10 =============>");
 		System.out.print("HAY NHAP n DE THUC HIEN TINH TONG n = ");
 		n = getInputInteger(sc);
 		if (isEvenNumber(n)) {
@@ -26,7 +27,15 @@ public class Exercise_10 extends AbstractExercise {
 			for (int i = 1; i <= n; i = i + 2) {
 				sum = sum + i;
 			}
-			System.out.print("==> Tong cac so 1 + 3 + ... + " + n + " : " + sum);
+			
+			if (n > 3) {
+				System.out.print("==> Tong cac so 1 + 3 + ... + " + n + " : " + sum);
+			} else if (n == 3) {
+				System.out.print("==> Tong cac so 1 + 3 : " + sum);
+			} else {
+				System.out.print("==> Tong cac so 1 : " + sum);
+			}
+			
 		}
 
 		System.out.println("");
