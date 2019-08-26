@@ -16,14 +16,14 @@ public class AbstractMain {
 		do {
 			try {
 				n = sc.nextInt();
-				if((n >= 1) && (n <= 14)) {
+				if((n >= 1) && (n <= 22)) {
 				check = false;
 				} else {
-					System.out.println("VUI LONG NHAP SO BAI TAP TU 1 -> 14");
+					System.out.println("VUI LONG NHAP SO BAI TAP TU 1 -> 22");
 					check = true;
 				}
 			} catch (Exception e) {
-				System.out.println("VUI LONG NHAP SO NGUYEN TU 1 -> 14");
+				System.out.println("VUI LONG NHAP SO NGUYEN TU 1 -> 22");
 				sc.nextLine();
 			}
 

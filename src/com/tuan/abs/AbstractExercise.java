@@ -177,5 +177,16 @@ public class AbstractExercise {
 		}
 		return min;
 	}
+	
+	//get String[] from String
+	public String[] getArray(String a) {
+		return a.split("\\s");
+	}
+	
+	//
+	public int getNumberArray(String[] a) {
+		return a.length;
+	}
+	
 
 }

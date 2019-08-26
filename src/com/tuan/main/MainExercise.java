@@ -5,8 +5,9 @@ import java.util.Scanner;
 import com.tuan.exercise.Exercise_12;
 import com.tuan.exercise.Exercise_13;
 import com.tuan.exercise.Exercise_14;
+import com.tuan.exercise.Exercise_15;
 import com.tuan.abs.AbstractMain;
-import com.tuan.exercise.Exercise_01;
+import com.tuan.exercise.ExSelenium;
 import com.tuan.exercise.Exercise_02;
 import com.tuan.exercise.Exercise_03;
 import com.tuan.exercise.Exercise_04;
@@ -32,7 +33,7 @@ public class MainExercise extends AbstractMain {
 		String i;
 		int ex = 0;
 
-		Exercise_01 ex1 = new Exercise_01();
+		ExSelenium ex1 = new ExSelenium();
 		Exercise_02 ex2 = new Exercise_02();
 		Exercise_03 ex3 = new Exercise_03();
 		Exercise_04 ex4 = new Exercise_04();
@@ -46,10 +47,12 @@ public class MainExercise extends AbstractMain {
 		Exercise_12 ex12 = new Exercise_12();
 		Exercise_13 ex13 = new Exercise_13();
 		Exercise_14 ex14 = new Exercise_14();
+		Exercise_15 ex15 = new Exercise_15();
 
 		do {
 			System.out.print("NHAP SO BAI TAP: ");
 			ex = me.getInputIntegerExceptionExcercise(sc);
+			sc.nextLine();
 			switch (ex) {
 			case 1: {
 				ex1.caculateNumber(sc);
@@ -102,9 +105,15 @@ public class MainExercise extends AbstractMain {
 			}
 			case 13: {
 				ex13.checkNumberExtend(sc);
+				break;
 			}
 			case 14: {
 				ex14.printMultiplesOfN(sc);
+				break;
+			}
+			case 15: {
+				ex15.countNumberCharacters(sc);
+				break;
 			}
 			}
 			System.out.println("NHAP 1 DE TIEP TUC HOAC NHAP 0 DE KET THUC : 1 / 0");
